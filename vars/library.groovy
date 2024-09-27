@@ -4,6 +4,6 @@ def download(filename)
  }
 def buildstep()
 {
-  sh 'mvn package'
+  sh "mvn package"
 }
 
